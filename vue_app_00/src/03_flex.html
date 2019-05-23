@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+     *{margin:0;padding:0}
+     .wrap{
+         width:750px;
+         height:1000px;
+         margin:0 auto;
+         border:1px solid red;
+     }
+     .nav{
+         display:flex;
+         flex-wrap:wrap;  /*换行*/
+
+     }
+     .item{
+         width:33.333333%;
+         height: 300px;
+         border:1px solid blue;
+         box-sizing: border-box;
+     }
+    </style>
+</head>
+<body>
+<h3>商品列表==3行3列</h3>
+<div class="wrap">
+    <div class="nav">
+        <div class="item">手机</div>
+        <div class="item">电脑</div>
+        <div class="item">冰箱</div>
+        <div class="item">电视</div>
+        <div class="item">洗衣机</div>
+        <div class="item">饮水机</div>
+        <div class="item">空调</div>
+        <div class="item">净水器</div>
+        <div class="item">洗碗机</div>
+    </div>
+</div>   
+</body>
+</html>
